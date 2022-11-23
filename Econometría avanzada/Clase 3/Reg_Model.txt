@@ -1,0 +1,9 @@
+	(1)
+VARIABLES	Religiosidad
+	
+values	0.107**
+	(0.051)
+	
+Observations	3,721
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

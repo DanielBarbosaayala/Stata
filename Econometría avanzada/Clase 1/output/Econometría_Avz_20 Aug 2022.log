@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\caaya\OneDrive - Universidad de los Andes\universidad\8 semestre\Econometría avanzada\Clases complementarias\Clase 1\output/Econometría_Avz_2
+> 0 Aug 2022.log
+  log type:  text
+ opened on:  20 Aug 2022, 11:18:01
+
+. 
+.         display "Clase 1- Econometría Avanzada"
+Clase 1- Econometría Avanzada
+
+.         di 2+2
+4
+
+.         sysuse dir /* Bases de datos guardadas                                                                          */
+  auto.dta        autornd.dta     cancer.dta      citytemp4.dta   lifeexp.dta     nlsw88.dta      sandstone.dta   tsline1.dta     uslifeexp2.dta
+  auto16.dta      bplong.dta      census.dta      educ99gdp.dta   network1.dta    nlswide1.dta    sp500.dta       tsline2.dta     voter.dta
+  auto2.dta       bpwide.dta      citytemp.dta    gnp96.dta       network1a.dta   pop2000.dta     surface.dta     uslifeexp.dta   xtline1.dta
+
+. 
+.         log close 
+      name:  <unnamed>
+       log:  C:\Users\caaya\OneDrive - Universidad de los Andes\universidad\8 semestre\Econometría avanzada\Clases complementarias\Clase 1\output/Econometría_Avz_2
+> 0 Aug 2022.log
+  log type:  text
+ closed on:  20 Aug 2022, 11:18:01
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------

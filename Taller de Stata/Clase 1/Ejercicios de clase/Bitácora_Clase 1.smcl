@@ -1,0 +1,73 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Carlos A. Ayala\Desktop\universidad\Cuarto Semestre\Taller de Stata\Clase 1\Ejercicios de clase\Bitácora_Clase 1.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}17 Aug 2020, 18:44:41
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\CARLOS~1.AYA\AppData\Local\Temp\STD182c_000000.tmp"
+{txt}
+{com}. help log 
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. import excel "C:\Users\Carlos A. Ayala\Desktop\universidad\Cuarto Semestre\Taller de Stata\Clase 1\Ejercicios de clase\ProyeccionMunicipios2005_2020.xls", sheet("Mpios") cellrange(A9:T1131) firstrow case(lower)
+{res}{text}(20 vars, 1,122 obs)
+
+{com}. brows
+
+. describe
+
+{txt}Contains data
+  obs:{res}         1,122                          
+{txt} vars:{res}            20                          
+{txt}{hline}
+              storage   display    value
+variable name   type    format     label      variable label
+{hline}
+{p 0 48}{res}{bind:dp             }{txt}{bind: str2    }{bind:{txt}%9s       }{space 1}{bind:         }{bind:  }{res}{res}DP{p_end}
+{p 0 48}{bind:dpnom          }{txt}{bind: str28   }{bind:{txt}%28s      }{space 1}{bind:         }{bind:  }{res}{res}DPNOM{p_end}
+{p 0 48}{bind:dpmp           }{txt}{bind: str5    }{bind:{txt}%9s       }{space 1}{bind:         }{bind:  }{res}{res}DPMP{p_end}
+{p 0 48}{bind:mpio           }{txt}{bind: str29   }{bind:{txt}%29s      }{space 1}{bind:         }{bind:  }{res}{res}MPIO{p_end}
+{p 0 48}{bind:e              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2005{p_end}
+{p 0 48}{bind:f              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2006{p_end}
+{p 0 48}{bind:g              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2007{p_end}
+{p 0 48}{bind:h              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2008{p_end}
+{p 0 48}{bind:i              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2009{p_end}
+{p 0 48}{bind:j              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2010{p_end}
+{p 0 48}{bind:k              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2011{p_end}
+{p 0 48}{bind:l              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2012{p_end}
+{p 0 48}{bind:m              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2013{p_end}
+{p 0 48}{bind:n              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2014{p_end}
+{p 0 48}{bind:o              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2015{p_end}
+{p 0 48}{bind:p              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2016{p_end}
+{p 0 48}{bind:q              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2017{p_end}
+{p 0 48}{bind:r              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2018{p_end}
+{p 0 48}{bind:s              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2019{p_end}
+{p 0 48}{bind:t              }{txt}{bind: long    }{bind:{txt}%10.0gc   }{space 1}{bind:         }{bind:  }{res}{res}2020{p_end}
+{txt}{hline}
+Sorted by: 
+{res}     Note: Dataset has changed since last saved.
+
+{com}. 
+. do "C:\Users\CARLOS~1.AYA\AppData\Local\Temp\STD182c_000000.tmp"
+{txt}
+{com}. Log close
+{err}command {bf}Log{sf} is unrecognized
+{txt}{search r(199), local:r(199);}
+
+end of do-file
+
+{search r(199), local:r(199);}
+
+{com}. display "buenos días mundo"
+{res}buenos días mundo
+
+{com}. save "C:\Users\Carlos A. Ayala\Desktop\universidad\Cuarto Semestre\Taller de Stata\Clase 1\Ejercicios de clase\Mi primer buenos días mundo.dta"
+{txt}file C:\Users\Carlos A. Ayala\Desktop\universidad\Cuarto Semestre\Taller de Stata\Clase 1\Ejercicios de clase\Mi primer buenos días mundo.dta saved
+
+{com}. exit

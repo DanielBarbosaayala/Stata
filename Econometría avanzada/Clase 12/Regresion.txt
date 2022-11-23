@@ -1,0 +1,10 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)
+VARIABLES	LABELS	MPL	Logit	Logit	Probit	Probit	Probit	Probit
+								
+1.treatment	Tratamiento = 1, tratamiento	0.059**	0.642**	0.053**	0.327**	0.052**	0.263**	0.044**
+		(0.023)	(0.273)	(0.023)	(0.140)	(0.022)	(0.132)	(0.022)
+								
+Observations		705	705	705	705	705	705	705
+Resultados		EMa	Parámetros	EMa	Parámetros	EMa	Parámetros	EMa
+EE		W-H	-	-	-	-	-	-
+Errores estandar en parentesis. * p<0.01, ** p<0.05, * p<0.1								

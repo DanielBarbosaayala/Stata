@@ -1,0 +1,22 @@
+---------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Carlos A. Ayala\Desktop\universidad\Cuarto Seme
+> stre\Taller de Stata\Clase 1\bitacora_C1.log
+  log type:  text
+ opened on:  20 Aug 2020, 12:11:20
+
+. 
+end of do-file
+
+. display "hola"
+hola
+
+. do "C:\Users\CARLOS~1.AYA\AppData\Local\Temp\STD5328_000000.tmp"
+
+. log close
+      name:  <unnamed>
+       log:  C:\Users\Carlos A. Ayala\Desktop\universidad\Cuarto Seme
+> stre\Taller de Stata\Clase 1\bitacora_C1.log
+  log type:  text
+ closed on:  20 Aug 2020, 12:12:41
+---------------------------------------------------------------------
